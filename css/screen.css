@@ -104,7 +104,8 @@ ul.posts {
 
   .site .title a.extra {
     color: #aaa;
-    margin-left: 2em;
+    text-decoration: none;
+    margin-left: 3em;
     text-align: right;
   }
 
