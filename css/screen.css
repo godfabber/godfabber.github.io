@@ -106,6 +106,7 @@ ul.posts {
     color: #aaa;
     text-decoration: none;
     margin-left: 1em;
+    text-align: right;
   }
 
   .site .title a.extra:hover {
