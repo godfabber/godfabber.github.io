@@ -210,8 +210,6 @@ ul.posts {
   color: #cc0000; }
 #post a.anchor {
   display: block;
-  padding-left: 30px;
-  margin-left: -30px;
   cursor: pointer;
   position: absolute;
   top: 0;
@@ -219,8 +217,6 @@ ul.posts {
   bottom: 0; }
 
 #post h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
-  padding: 0;
   font-weight: bold;
   cursor: text;
   position: relative; }
@@ -278,35 +274,12 @@ ul.posts {
   padding: 0;
 }
 
-#post body > h2:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-#post body > h1:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-  #post body > h1:first-child + h2 {
-    margin-top: 0;
-    padding-top: 0; }
-#post body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-
-#post a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0; }
-
-#post h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
-  margin-top: 0; }
-
 #post li p.first {
   display: inline-block; }
 #post li {
   margin: 0; }
 #post ul, ol {
   padding-left: 30px; }
-
-#post ul :first-child, ol :first-child {
-  margin-top: 0; }
 
 #post dl {
   padding: 0; }
@@ -461,39 +434,4 @@ ul.posts {
   pre code, pre tt {
     background-color: transparent;
     border: none; }
-
-#post sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
-
-#post kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 11px;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb
-}
-
-@media screen and (min-width: 914px) {
-    #post body {
-        width: 854px;
-        margin:0 auto;
-    }
-}
-@media print {
-	#post table, pre {
-		page-break-inside: avoid;
-	}
-	#post pre {
-		word-wrap: break-word;
-	}
-}
 
